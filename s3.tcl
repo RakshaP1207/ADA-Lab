@@ -40,6 +40,8 @@ $ns queue - limit $n0 $n3 20
 set tcp1 [new Agent / TCP / Vegas ]
 $ns attach - agent $n1 $tcp1
 set sink 1 [newAgent / TCPSink ]
-$ns attach - agent $n1 $tcp1
-set sink 1 [newAgent / TCPSink ] 
+$ns attach - agent $n7 $sink1
+set ftp 1 [new Application / FTP] 
+$ftp1
+
  
